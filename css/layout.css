@@ -1,0 +1,109 @@
+body {
+  background-color: #fff9f9;
+}
+
+#logo {
+  text-align: center;
+  color: black;
+  background-color: #fff9f9;
+  padding: 5px;
+  font-variant: small-caps;
+  width: 100%;
+}
+
+#logo a {
+  color: black;
+  text-decoration: none;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+}
+
+.navigation {
+  overflow: hidden;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  margin-top: -3px;
+  font-variant: small-caps;
+  margin-left: auto;
+}
+
+.navigation a {
+  float: left;
+  display: block;
+  color: #656060;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navigation ul {
+  background-color: white;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+}
+
+.navigation li {
+  text-align: center;
+  float: left;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  color: white ! important;
+  background-color: black;
+}
+
+.mainBody {
+  margin-top: 115px;
+}
+
+.status {
+  display: inline;
+  font-weight: bold;
+}
+.yes {
+  color: green;
+}
+.no {
+  color: red;
+}
+.maybe {
+  color: orange;
+}
+
+.trip_name {
+  font-size: xx-large;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+.event_name {
+  font-size: x-large;
+  font-weight: lighter;
+}
+
+.subtitle {
+  font-weight: lighter;
+  display: inline;
+}
+.subcontent {
+  display: inline;
+}
+
+.event_details {
+  padding-left: 1.5em;
+}
